@@ -44,7 +44,7 @@ Example:
 
 ## Related
 
-- __[`dep-graph`](https://github.com/CodeDotJS/instavim)__ `:` Packages count that a repository depends on!
+- __[`dep-graph`](https://github.com/CodeDotJS/dep-graph)__ `:` Packages count that a repository depends on!
 
 ## License
 
