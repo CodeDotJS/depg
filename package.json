@@ -1,0 +1,53 @@
+{
+  "name": "depg",
+  "version": "1.0.1",
+  "description": "Command line tool to find total dependents on a repository!",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeDotJS/depg.git"
+  },
+  "author": "Rishi Giri <rushforlinux@gmail.com> (rishi.ml)",
+  "bin": {
+    "depg": "cli.js"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "cli",
+    "cli-app",
+    "github",
+    "repository",
+    "packages",
+    "repositroies",
+    "count",
+    "dependents"
+  ],
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "dep-graph-count": "^1.0.0",
+    "log-update": "^2.3.0",
+    "ora": "^3.0.0",
+    "update-notifier": "^2.5.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "execa": "^0.2.2",
+    "xo": "*"
+  },
+  "xo": {
+    "esnext": true
+  },
+  "bugs": {
+    "url": "https://github.com/CodeDotJS/depg/issues"
+  },
+  "homepage": "https://github.com/CodeDotJS/depg#readme",
+  "main": "cli.js"
+}
