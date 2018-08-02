@@ -1,6 +1,6 @@
 {
   "name": "depg",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Command line tool to find total dependents on a repository!",
   "license": "MIT",
   "repository": {
